@@ -1,0 +1,81 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.main_wrap {
+    background: #efe029; padding: 30px 0;
+}
+.main_wrap .container{position: relative;}
+.container {
+    width: 100%;
+    max-width: 810px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    width: 30%;
+    flex: 1 1 auto;
+}
+.ibox-image {
+    border: 2px solid #000;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ibox-image.ibox-center {display: flex;justify-content: center;align-items: center;}
+
+.ibox-inner {
+    text-align: center;
+}
+.ibrand-text {
+    padding: 30px 0;
+    font-size: 18px;
+}
+.iboxright_slide {
+    overflow: hidden;
+    background: red;
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+.iboxright_slidea {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 250px);
+    margin: 40px 30px;
+    float: right;
+}
+.coll1 {
+    width: 20%;
+    flex: 1 1 auto;
+}
+.boxsimg {
+    width: 140px;
+    height: 140px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.textservice{font-size: 18px; padding: 30px 0;}
+.iser-fram {display: flex;}
+
+.service-left {flex: 1 1 auto;width: 100%;}
+
+.service-rightindex {background: #fff;padding: 20px;flex: 1 1 auto;width: 20%;}
+.box-service {
+    text-align: center;
+}
+
+.service-head {
+    background: #efe029;
+    padding: 10px 20px;
+}
